@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+    <LinearLayout
+        android:background="#ffffff"
+               android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal >
+
+        <Button
+            android:id="@+id/red__bt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/yellow_bt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YELLOW"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/green_bt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/blue_bt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+</ScrollView>

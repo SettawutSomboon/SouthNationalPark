@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/sv_step1_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/rl_easyfund_step1_purchase_wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/txt_parkname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxxxx"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_general"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="xxxxx" />
+
+            <TextView
+                android:id="@+id/txt_topography"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="xxxxx" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <RelativeLayout
+            android:id="@+id/rl_topography"
+            android:layout_width="82dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f3ae1b"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_topography"
+                android:layout_width="82dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/d" />
+
+            <TextView
+                android:id="@+id/tv_topography"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:text="ลักษณะทั่วไป"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_climate"
+            android:layout_width="82dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#a276eb"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_climate"
+                android:layout_width="82dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/d" />
+
+            <TextView
+                android:id="@+id/tv_climate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:text="ภูมิอากาศ"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_plant"
+            android:layout_width="82dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#70c656"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_plant"
+                android:layout_width="82dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/d" />
+
+            <TextView
+                android:id="@+id/tv_plant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:text="พืชพรรณ"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_animal"
+            android:layout_width="82dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#bb6008"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_animal"
+                android:layout_width="82dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/d" />
+
+            <TextView
+                android:id="@+id/tv_animal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:text="สัตว์ป่า"
+                android:gravity="center"
+                android:textSize="12dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout><LinearLayout>
+
+</LinearLayout><RelativeLayout>
+
+</RelativeLayout>

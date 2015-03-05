@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgg">
+    
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+    <Button 
+        android:id="@+id/btn_general"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"  
+        android:text="ทั่วไป"
+        android:background="#f3ae1b"
+        android:gravity="left|center_vertical"
+        />
+     <Button 
+          android:id="@+id/btn_food"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" 
+        android:text="อาหาร"
+        android:background="#ef4444"
+        android:gravity="left|center_vertical"
+        />
+      <Button 
+           android:id="@+id/btn_weather"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"  
+        android:text="ฤดูกาล"
+        android:background="#6a3ab2"
+        android:gravity="left|center_vertical"
+        />
+       <Button 
+            android:id="@+id/btn_uniform"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"  
+        android:text="การแต่งกาย"
+        android:background="#a276eb"
+        android:gravity="left|center_vertical"
+        />
+        <Button 
+             android:id="@+id/btn_animal"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"  
+        android:text="แมลงสัตว์กัดต่อย"
+        android:background="#70c656"
+        android:gravity="left|center_vertical"
+        />
+          <Button 
+               android:id="@+id/btn_other"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"  
+        android:text="อื่นๆ"
+        android:background="#bb6008"
+        android:gravity="left|center_vertical"
+        />
+          
+           <LinearLayout
+            android:id="@+id/li_con"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+           <RelativeLayout
+                android:id="@+id/rl_btn1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+          
+          <Button
+                    android:id="@+id/btn_gallery"
+                    android:layout_width="180dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/gallerylogo" />
+          
+           </RelativeLayout>
+           </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
